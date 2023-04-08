@@ -1,0 +1,236 @@
+<web-app>
+
+<!-- Sign-Up-Servlet -->
+
+	<servlet>
+			<servlet-name>sign-up</servlet-name>
+			<servlet-class>com.vk.SignUpServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+			<servlet-name>sign-up</servlet-name>
+			<url-pattern>/sign-up-action</url-pattern>
+	</servlet-mapping>
+
+
+<!-- Sign-In-Servlet -->
+
+	<servlet>
+			<servlet-name>sign-in</servlet-name>
+			<servlet-class>com.vk.SignInServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+			<servlet-name>sign-in</servlet-name>
+			<url-pattern>/sign-in-action</url-pattern>
+	</servlet-mapping>
+	
+	
+<!-- Admin-Login-Servlet -->
+
+	<servlet>
+			<servlet-name>adlog</servlet-name>
+			<servlet-class>com.vk.AdminLoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+			<servlet-name>adlog</servlet-name>
+			<url-pattern>/adminlog</url-pattern>
+	</servlet-mapping>	
+	
+<!-- Add-Movie-Servlet -->
+
+	<servlet>
+			<servlet-name>admovie</servlet-name>
+			<servlet-class>com.vk.AddMovieServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+			<servlet-name>admovie</servlet-name>
+			<url-pattern>/addmovie</url-pattern>
+	</servlet-mapping>
+	
+<!-- Delete-Movie-Servlet -->
+
+	<servlet>
+			<servlet-name>dlmovie</servlet-name>
+			<servlet-class>com.vk.DeleteMovieServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+			<servlet-name>dlmovie</servlet-name>
+			<url-pattern>/deletemovie</url-pattern>
+	</servlet-mapping>
+	
+<!-- Add-Theater-Servlet -->
+
+	<servlet>
+			<servlet-name>adth</servlet-name>
+			<servlet-class>com.vk.AddTheaterServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+			<servlet-name>adth</servlet-name>
+			<url-pattern>/addtheater</url-pattern>
+	</servlet-mapping>
+
+	
+<!-- Delete-Theater-Servlet -->
+
+	<servlet>
+			<servlet-name>delth</servlet-name>
+			<servlet-class>com.vk.DeleteTheaterServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+			<servlet-name>delth</servlet-name>
+			<url-pattern>/deletetheater</url-pattern>
+	</servlet-mapping>
+	
+
+
+<!-- Add-Show-Servlet -->
+
+	<servlet>
+			<servlet-name>addshow</servlet-name>
+			<servlet-class>com.vk.AddShowServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+			<servlet-name>addshow</servlet-name>
+			<url-pattern>/add-show</url-pattern>
+	</servlet-mapping>
+	
+<!-- Delete-Show-Servlet -->
+
+	<servlet>
+			<servlet-name>delshow</servlet-name>
+			<servlet-class>com.vk.DeleteShowServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+			<servlet-name>delshow</servlet-name>
+			<url-pattern>/deleteshow</url-pattern>
+	</servlet-mapping>
+
+
+<!-- Theater-Cookies-Servlet -->
+
+	<servlet>
+			<servlet-name>thck</servlet-name>
+			<servlet-class>com.vk.TheaterCookies</servlet-class>
+	</servlet>
+	<servlet-mapping>
+			<servlet-name>thck</servlet-name>
+			<url-pattern>/cookies</url-pattern>
+	</servlet-mapping>
+	
+<!-- Select-Date-Servlet -->
+
+	<servlet>
+			<servlet-name>test</servlet-name>
+			<servlet-class>com.vk.SelectDateServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+			<servlet-name>test</servlet-name>
+			<url-pattern>/testservlet</url-pattern>
+	</servlet-mapping>
+	
+	
+<!-- Select-Theater-Servlet -->
+
+	<servlet>
+			<servlet-name>test2</servlet-name>
+			<servlet-class>com.vk.SelectTheaterServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+			<servlet-name>test2</servlet-name>
+			<url-pattern>/testservlet2</url-pattern>
+	</servlet-mapping>
+			
+<!-- Select-Show_Time-Servlet -->
+
+	<servlet>
+			<servlet-name>test3</servlet-name>
+			<servlet-class>com.vk.SelectShowTimeServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+			<servlet-name>test3</servlet-name>
+			<url-pattern>/testservlet3</url-pattern>
+	</servlet-mapping>
+	
+<!-- Number-Of-Ticket-Servlet -->
+
+	<servlet>
+			<servlet-name>test4</servlet-name>
+			<servlet-class>com.vk.NoOfTicketServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+			<servlet-name>test4</servlet-name>
+			<url-pattern>/testservlet4</url-pattern>
+	</servlet-mapping>
+	
+	
+<!-- Payment-Book-Servlet -->
+
+	<servlet>
+			<servlet-name>paybook</servlet-name>
+			<servlet-class>com.vk.PaymentAndBookServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+			<servlet-name>paybook</servlet-name>
+			<url-pattern>/payment</url-pattern>
+	</servlet-mapping>
+	
+
+<!-- Booking-Cancel-Servlet -->
+
+	<servlet>
+			<servlet-name>bkcancel</servlet-name>
+			<servlet-class>com.vk.BookingCancelServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+			<servlet-name>bkcancel</servlet-name>
+			<url-pattern>/bookcancel</url-pattern>
+	</servlet-mapping>
+
+<!-- Update-Movie-Servlet -->
+
+	<servlet>
+			<servlet-name>upmov</servlet-name>
+			<servlet-class>com.vk.UpdateMovieServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+			<servlet-name>upmov</servlet-name>
+			<url-pattern>/updatemovieser</url-pattern>
+	</servlet-mapping>
+
+
+<!-- Update-Theater-Servlet -->
+
+	<servlet>
+			<servlet-name>upth</servlet-name>
+			<servlet-class>com.vk.UpdateTheaterServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+			<servlet-name>upth</servlet-name>
+			<url-pattern>/updatetheaterser</url-pattern>
+	</servlet-mapping>
+	
+
+<!-- Update-Customer-Servlet -->
+
+	<servlet>
+			<servlet-name>upcus</servlet-name>
+			<servlet-class>com.vk.UpdateCustomerServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+			<servlet-name>upcus</servlet-name>
+			<url-pattern>/update-customer</url-pattern>
+	</servlet-mapping>
+	
+	
+<!-- Delete-Customer-Servlet -->
+
+	<servlet>
+			<servlet-name>delcus</servlet-name>
+			<servlet-class>com.vk.DeleteCustomerServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+			<servlet-name>delcus</servlet-name>
+			<url-pattern>/delete-customer</url-pattern>
+	</servlet-mapping>
+
+	
+</web-app>

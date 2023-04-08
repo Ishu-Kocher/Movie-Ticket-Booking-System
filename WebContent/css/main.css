@@ -1,0 +1,873 @@
+*{
+	padding: 0px;
+	margin-top: 0px;
+	font-family: arial;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+/* Header */
+
+.header{
+	height: 100px;
+}
+
+.logo img{
+	margin: 20px 0 0 70px;
+	position: absolute;
+}
+
+.navigation{
+	float: right;
+	position: relative;
+	margin-top: 30px;
+}
+
+.navigation ul{
+	list-style: none;
+}
+
+.navigation ul li{
+	font-size: 18px;
+	width: 160px;
+	height: 40px;
+	float: left;
+	opacity: .8;
+	line-height: 40px;
+	text-align: center;
+	margin-right: 20px;
+}
+
+.navigation ul li a{
+	text-decoration: none;
+	color: black;
+	display: block;
+}
+
+.navigation ul li a.active{
+	color: #FE7900;
+}
+
+.navigation ul li a:hover{
+	color: #FE7900;
+}
+
+.navigation ul li ul li{
+	display: none;
+	background-color: white;
+
+}
+
+.navigation ul li:hover ul li{
+	display: block;
+	display: inline-block;
+}
+
+
+/* Body */
+
+.mainContainer{
+	height: auto;
+}
+
+.slideimages img{
+	margin-top: 10px;
+}
+
+.carousel-control-next-icon{
+	margin-left: 150px;
+}
+
+.carousel-control-prev-icon{
+	margin-right: 150px;
+}
+
+.newMovies{
+	height: 50px;
+	margin-top: 20px;
+}
+
+.newMovies h1{
+	text-align: center;
+	color: black;
+}
+
+#m-color{
+	color: #FE7900; 
+}
+
+.movie-images img{
+	width: 22%;
+	height: 40%;
+	margin: 20px 20px 20px 102px;
+	transition: 1s;
+}
+
+.movie-images img:hover{
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+
+.gototop{
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	background: #FE7900;
+	bottom: 40px;
+	right: 30px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	color: black;
+	font-size: 22px;	
+}
+
+.gototop:hover{
+	color: white;
+}
+
+/* footer */
+
+.footer{
+	height: 100px;
+	background-color: #000000;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+.copyRight p{
+	color: white;
+	margin-top: 50px;
+	position: absolute;
+	margin-left: 30px;
+
+}
+
+.bootom-navigation{
+	float: right;
+	position: relative;
+	margin-top: 50px;
+}
+
+.bootom-navigation ul{
+	display: inline-flex;
+	list-style: none;
+	color: white;
+}
+
+.bootom-navigation ul li{
+	font-size: 18px;
+	margin-right: 100px;
+}
+
+.bootom-navigation ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+}
+
+.bootom-navigation ul li a:hover{
+	color: #FE7900;
+}
+
+
+/* help & support */
+
+.contact-form h2{
+	color: #FE7900;
+ 	margin: 40px 0 0 40px;
+}
+
+.contact-form input[type="text"], .contact-form input[type="phone"]{
+	padding: 2%;
+	border: none;
+	border-bottom: 1px dotted #FE7900;
+	width: 50%;
+	margin: 10px 0 10px 40px;
+}
+.contact-form input[type="text"],[type="phone"]:focus{
+	outline: none;
+}
+
+.contact-form textarea{
+	padding: 2%;
+	border: none;
+	border-bottom: 1px dotted #FE7900;
+	width: 50%;
+	height: 130px;
+	margin: 0 0 10px 40px;
+}	
+
+.contact-form textarea:focus{
+	outline: none;
+}
+
+.contact-form input[type="submit"]{
+	background-color: #FE7900;
+	color: white;
+	border: 2px solid #FE7900; 
+	padding: 10px 20px;
+	cursor: pointer;
+	margin-left: 50px;
+}
+
+.contact-form input[type="submit"]:focus{
+	outline: none;
+}
+
+.contact-form input[type="submit"]:hover{
+	background-color: white;
+	color: #FE7900;
+}
+.contact-tel{
+	float: right;
+	margin-right: 200px;
+	margin-top: 200px;
+}
+
+.contact-tel h3{
+	color: #FE7900;
+	margin: 10px 0 0 40px;
+}
+
+.contact-tel p{
+	color: black;
+	margin: 10px 0 0 40px;	
+}
+
+
+/* Sign In */
+
+.sign-in-mainContainer{
+	height: 500px;
+}
+
+  .login h1{
+	text-align: center;
+	color: black;
+	margin-top: 40px;
+	position: relative;
+}
+
+ .login h1::after{
+	font-family: "Font Awesome 5 Free";
+	content: "\f111";
+	background-color: #FE7900;
+	display: block;
+	color: #FE7900;
+	line-height: 2px;
+	width: 400px;
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 35%;
+	font-size: 2px;
+}
+
+.login form{
+	margin-top: 110px;
+}
+
+ .login p{
+	margin-left: 100px;
+	color: black;
+	font-size: 20px;
+	margin-bottom: 0px;
+	margin-top: 20px;
+}
+
+#sign-in-edit{
+	margin-left: 130px;
+	color: black;
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+#sign-in-edit3{
+	margin-left: 185px;
+	color: black;
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+.login input[type="text"]{
+	width: 15%;
+	height: 40px;
+	margin-left: 100px;
+	border: none;
+	background-color: #f6f9ec;
+}
+
+.login input[type="password"]{
+	width: 15%;
+	height: 40px;
+	margin-left: 30px;
+	border: none;
+	background-color: #f6f9ec;
+}
+
+.login input[type="text"]:focus{
+	outline: none;
+	border-bottom: 2px solid #FE7900;
+}
+
+.login input[type="password"]:focus{
+	outline: none;
+	border-bottom: 2px solid #FE7900;	
+}
+
+.login input[type="submit"]{
+	background-color: #FE7900;
+	color: white;
+	border: 2px solid #FE7900; 
+	padding: 5px 10px;
+	margin-left: 100px;
+	cursor: pointer;
+	margin-top: 30px;
+}
+
+.login input[type="submit"]:focus{
+	outline: none;
+}
+
+.login input[type="submit"]:hover{
+	background-color: white;
+	color: #FE7900;
+}	
+
+.login input[type="button"]{
+	background-color: #FE7900;
+	color: white;
+	border: 2px solid #FE7900; 
+	padding: 5px 10px;
+	margin-left: 10px;
+	cursor: pointer;
+	margin-top: 30px;
+}
+
+.login input[type="button"]:focus{
+	outline: none;
+}
+
+.login input[type="button"]:hover{
+	background-color: white;
+	color: #FE7900;
+}
+
+
+/* Sign Up */
+
+.sign-up-mainContainer{
+	height: 800px;
+}
+
+.sign-up h1{
+	text-align: center;
+	color: black;
+	margin-top: 40px;
+	position: relative;
+}
+
+ .sign-up h1::after{
+	font-family: "Font Awesome 5 Free";
+	content: "\f111";
+	background-color: #FE7900;
+	display: block;
+	color: #FE7900;
+	line-height: 2px;
+	width: 400px;
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 35%;
+	font-size: 2px;
+}
+
+.sign-up form{
+	margin-top: 110px;
+}
+
+.sign-up p{
+	margin-left: 100px;
+	color: black;
+	font-size: 20px;
+	margin-bottom: 0px;
+	margin-top: 20px;
+}
+
+#sign-up-edit{
+	margin-left: 210px;
+	color: black;
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+.sign-up input[type="text"]{
+	width: 15%;
+	height: 40px;
+	margin-left: 100px;
+	border: none;
+	background-color: #f6f9ec;
+}
+
+.sign-up input[type="text"]:focus{
+	outline: none;	
+	border-bottom: 2px solid #FE7900;
+}
+
+.sign-up input[type="time"]{
+	width: 15%;
+	height: 40px;
+	margin-left: 100px;
+	border: none;
+	background-color: #f6f9ec;
+}
+
+.sign-up input[type="time"]:focus{
+	outline: none;	
+	border-bottom: 2px solid #FE7900;
+}
+
+#input-edit{
+	width: 38%;
+}
+
+.sign-up input[type="password"]{
+	width: 15%;
+	height: 40px;
+	margin-left: 100px;
+	border: none;
+	background-color: #f6f9ec;
+}
+
+.sign-up input[type="password"]:focus{
+	outline: none;
+	border-bottom: 2px solid #FE7900;
+}
+
+.sign-up input[type="phone"]{
+	width: 15%;
+	height: 40px;
+	margin-left: 100px;
+	border: none;
+	background-color: #f6f9ec;
+}
+
+.sign-up input[type="phone"]:focus{
+	outline: none;
+	border-bottom: 2px solid #FE7900;
+}
+
+.sign-up input[type="submit"]{
+	background-color: #FE7900;
+	color: white;
+	border: 2px solid #FE7900; 
+	padding: 5px 10px;
+	margin-left: 100px;
+	cursor: pointer;
+	margin-top: 30px;
+}
+
+.sign-up input[type="submit"]:focus{
+	outline: none;
+}
+.sign-up input[type="submit"]:hover{
+	background-color: white;
+	color: #FE7900;
+}
+
+.sign-up input[type="reset"]{
+	background-color: #FE7900;
+	color: white;
+	border: 2px solid #FE7900; 
+	padding: 5px 10px;
+	margin-left: 10px;
+	cursor: pointer;
+	margin-top: 30px;
+}
+
+.sign-up input[type="reset"]:focus{
+	outline: none;
+}
+
+.sign-up input[type="reset"]:hover{
+	background-color: white;
+	color: #FE7900;
+}
+
+.sign-up button{
+	background-color: #FE7900;
+	color: white;
+	border: 2px solid #FE7900; 
+	padding: 5px 10px;
+	margin-left: 10px;
+	cursor: pointer;
+	margin-top: 30px;
+}
+
+.sign-up button:focus{
+	outline: none;
+}
+
+.sign-up button:hover{
+	background-color: white;
+	color: #FE7900;
+}
+
+
+/* user index */
+
+.user-mainContainer{
+	height: 590px;
+}
+
+.user-cover-page img{
+	width: 100%;
+	height: auto;
+}
+
+
+/* Movie List */
+
+.movie-list-mainContainer{
+	height: 3000px;
+}
+
+.movie-list h1{
+	text-align: center;
+	color: black;
+	margin-top: 40px;
+	position: relative;
+}
+
+.movie-list h1::after{
+	font-family: "Font Awesome 5 Free";
+	content: "\f111";
+	background-color: #FE7900;
+	display: block;
+	color: #FE7900;
+	line-height: 2px;
+	width: 600px;
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 25%;
+	font-size: 2px;
+}
+
+.movies-database{
+	margin-top: 90px;
+	margin-left: 17%; 
+	position: absolute;
+}
+
+.movies-database table tr td{
+	width: 300px;
+	height: 600px;
+}
+
+.movies-database img{
+	width: 250px;
+	height: 300px;
+}
+
+.movies-database input[type="submit"]{
+	background-color: #FE7900;
+	color: white;
+	border: 2px solid #FE7900; 
+	padding: 5px 10px;
+	cursor: pointer;
+}
+
+.movies-database input[type="submit"]:focus{
+	outline: none;
+}
+
+.movies-database input[type="submit"]:hover{
+	background-color: white;
+	color: #FE7900;
+}
+
+.movies-database button{
+	background-color: #FE7900;
+	color: white;
+	border: 2px solid #FE7900; 
+	padding: 5px 10px;
+	cursor: pointer;
+}
+
+.movies-database button:focus{
+	outline: none;
+}
+
+.movies-database button:hover{
+	background-color: white;
+	color: #FE7900;
+}
+
+
+/* data access in jsp */
+
+#test{
+	color: green;
+	margin-top: 35px;
+	margin-left: 45%;
+}
+
+#test2{
+	color: green;
+	margin-top: 35px;
+	margin-left: 39%;
+}
+
+#admin-msg{
+	color: white;
+	margin-top: 20px;
+	margin-left: 10%;
+}
+
+/* add-edit movie */
+
+.add-edit-movie{
+	margin-top: 9%;
+	margin-left: 45%;
+}
+
+.add-edit-movie input[type="button"]{
+	background-color: #FE7900;
+	color: white;
+	border: 2px solid #FE7900; 
+	padding: 5px 10px;
+	margin-left: 10px;
+	cursor: pointer;
+	margin-top: 30px;
+}
+
+.add-edit-movie input[type="button"]:focus{
+	outline: none;
+}
+
+.add-edit-movie input[type="button"]:hover{
+	background-color: white;
+	color: #FE7900;
+}
+
+
+/* Theater */
+
+.theater-list-mainContainer{
+	height: 1000px;
+}
+
+.theater-tag p{
+	color: black;
+	font-size: 20px;
+	margin-bottom: 0px;
+	margin-left: 100px;
+	margin-top: 110px;
+}
+
+.theater-tag input[type="date"],.theater-tag select{
+	width: 40%;
+	height: 60px;
+	margin-left: 100px;
+	border: none;
+	background-color: #f6f9ec;
+}
+
+.theater-tag input[type="date"]:focus,.theater-tag select:focus{
+	outline: none;
+}
+
+.theater-tag input[type="date"]:hover,.theater-tag select:hover{
+	cursor: pointer;
+}
+
+.theater-tag input[type="submit"]{
+	background-color: #FE7900;
+	color: white;
+	border: 2px solid #FE7900; 
+	padding: 5px 10px;
+	margin-left: 100px;
+	cursor: pointer;
+	margin-top: 30px;
+}
+
+.theater-tag input[type="submit"]:focus{
+	outline: none;
+}
+
+.theater-tag input[type="submit"]:hover{
+	background-color: white;
+	color: #FE7900;
+}
+
+.theater-tag input[type="reset"]{
+	background-color: #FE7900;
+	color: white;
+	border: 2px solid #FE7900; 
+	padding: 5px 10px;
+	margin-left: 10px;
+	cursor: pointer;
+	margin-top: 30px;
+}
+
+.theater-tag input[type="reset"]:focus{
+	outline: none;
+}
+
+.theater-tag input[type="reset"]:hover{
+	background-color: white;
+	color: #FE7900;
+}
+
+
+
+
+/* Admin Login */
+
+.login-body{
+	background: url(../images/login2.jpg);
+	background-size: cover;
+}
+
+.admin-login{
+	background: rgba(44,62,80,0.7);
+    padding: 40px;
+    width: 250px;
+    margin: auto;
+    margin-top: 80px;
+    height: 400px;
+    margin-left: 480px;
+}
+
+.admin-login h2{
+    color: white;
+    margin-top: 10px;
+    margin-left: 50px;
+
+}
+
+.admin-login input{
+    width: 240px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-family: 'play' , sans-serif;
+    font-size: 16px;
+    font-weight: 200px;
+    padding: 10px 0;
+    transition: border 0.5s;
+    outline: none;
+    color: #fff;
+    margin-top: 5%;
+}
+.admin-login input[type=submit]{
+    border: none;
+    width: 199px;
+    background: white;
+    color: #000;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.admin-login input[type=submit]:hover{
+    color: white;
+    background-color: #EF1C1C;
+}
+
+
+/* Add Movie */
+
+.add-movie-mainContainer{
+	height: 950px;
+}
+
+.sign-up textarea{
+	width: 38%;
+	margin-left: 100px;
+	border: none;
+	background-color: #f6f9ec;	
+}
+
+.sign-up textarea:focus{
+	outline: none;
+	border-bottom: 2px solid #FE7900;
+}
+
+.sign-up input[type="file"]{
+	width: 15%;
+	height: 40px;
+	margin-left: 100px;
+	border: none;
+	background-color: #f6f9ec;
+}
+
+.sign-up input[type="file"]:focus{
+	outline: none;	
+	border-bottom: 2px solid #FE7900;
+}
+
+#add-movie-edit{
+	margin-left: 21%;
+}
+
+
+/* Theater Table */
+
+#theater_table tr td{
+	width: 300px;
+	height: 400px;
+}
+
+
+/* Add Show */
+
+.sign-up select{
+	width: 15%;
+	height: 40px;
+	margin-left: 100px;
+	border: none;
+	background-color: #f6f9ec;
+}
+
+.sign-up select:focus{
+	outline: none;	
+}
+
+.sign-up input[type="date"]{
+	width: 15%;
+	height: 40px;
+	margin-left: 100px;
+	border: none;
+	background-color: #f6f9ec;
+}
+
+.sign-up input[type="date"]:focus{
+	outline: none;	
+	border-bottom: 2px solid #FE7900;
+}
+
+
+/* payment */
+
+.payment-mainContainer{
+	height: 700px;
+}
+
+#sign-in-edit2{
+	margin-left: 20%;
+}
+
+#image-size-payment{
+	margin-top: 70px;
+	width: 230px;
+    height: 350px;	
+}
+
+

@@ -1,0 +1,16 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title></title>
+</head>
+<body>
+	<%
+		session.invalidate();
+		String msg="Successfully LogOut";
+		response.sendRedirect("sign-in.jsp?msg="+msg);
+	%>
+</body>
+</html>
